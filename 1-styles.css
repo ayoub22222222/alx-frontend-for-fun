@@ -1,0 +1,22 @@
+h2 a {
+    position: relative; /* Necessary for positioning the ::after element */
+    text-decoration: none; /* No underline by default */
+    color: #8A153A; /* Inherit the color from h2 */
+}
+
+h2 a::after {
+    content: ''; /* Empty content for the pseudo-element */
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Position the underline just below the text */
+    width: 100%;
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: #8A153A; /* Use the current text color */
+    transform: scaleX(0); /* Initially, the underline is not visible */
+    transform-origin: left; /* The underline will expand from the left */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+h2 a:hover::after {
+    transform: scaleX(1); /* On hover, expand the underline to full width */
+}
