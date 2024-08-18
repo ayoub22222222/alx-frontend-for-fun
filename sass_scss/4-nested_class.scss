@@ -1,0 +1,12 @@
+/* nothings that is */
+
+$text-color: #3D3D3D;
+$color-text: #FF0000;
+
+body {
+	color: $text-color;
+
+	body .red {
+		color: $color-text;
+	}
+}
