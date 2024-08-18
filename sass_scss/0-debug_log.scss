@@ -6,5 +6,6 @@ body {
         color: #3D3D3D;
     }
 }
-$var: "hello world";
+
+$var: "Hello world";
 @debug $var;
