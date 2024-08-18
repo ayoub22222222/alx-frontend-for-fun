@@ -1,0 +1,13 @@
+/* its what its */
+
+$single-value: 0px;
+$value: 10px;
+body {
+	margin: $single-value;
+	padding: $single-value;
+
+	p {
+		margin: $value;
+	}
+}
+
