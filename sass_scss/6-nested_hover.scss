@@ -1,0 +1,12 @@
+/* money power */
+
+$text-color: #FF0000;
+$color-text: #00FF00;
+
+button {
+	color: $text-color;
+
+	button:hover {
+		color: $color-text;
+	}
+}
