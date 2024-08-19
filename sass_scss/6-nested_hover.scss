@@ -1,12 +1,10 @@
-/* money power and random things also ...*/
-
-$text-color: #FF0000;
-$color-text: #00FF00;
+/* Nested hover
+change button color on hover */
 
 button {
-	color: $text-color;
+    color: #FF0000;
 
-	&:hover {
-		color: $color-text;
-	}
+    &:hover {
+        color: #00FF00;
+    }
 }
